@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <Header/>
+    <Hero/>
+    <Opencampus/>
+    <Calculations/>
+    <Subscribe/>
+    <Introduction/>
+    <Footer/>
+  </div>
+</template>
