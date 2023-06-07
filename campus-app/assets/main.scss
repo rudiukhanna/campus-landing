@@ -212,7 +212,8 @@ body {
     }
 
     .open {
-        .open-content {
+
+        &_content {
         margin-top: 28px;
         background-color: var(--quaternary-color);
         border-radius: 20px;
@@ -220,8 +221,7 @@ body {
         @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
            margin-top: 20px;
         }
-    }
-
+   
         &_wrapper {
             padding: 28px 40px 45px;
             display: flex;
@@ -233,41 +233,43 @@ body {
                 padding: 16px 12px;
              }
 
-            &_content {
+            &_contents {
 
                 @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
                     flex-direction: column;
                  }
-                &>h2 {
-                    margin: 0;
-                    font: {
-                        weight: var(--semi-bold);
-                        size: var(--font-size-xxl);
-                    }
-                    line-height: 1.2;
 
-                    @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
-                         margin-top: 12px;
-                         padding-left: 12px;
-                         font-size: var(--font-size-l);
+                        &>h2 {
+                            margin: 0;
+                            font: {
+                                weight: var(--semi-bold);
+                                size: var(--font-size-xxl);
+                            }
+                            line-height: 1.2;
+
+                            @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
+                                margin-top: 12px;
+                                padding-left: 12px;
+                                font-size: var(--font-size-l);
+                            }
                     }
-               }
-            
-                &>p {
-                    line-height: 22px;
-                    color: var(--rgba7);
-                    @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
-                       display: none;
-                   }
+                    
+                        &>p {
+                            line-height: 22px;
+                            color: var(--rgba7);
+                            @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_m) {
+                            display: none;
+                        }
+                        }
+                    
+          
+                    &_btn {
+                        display: flex;
+                        gap: 18px;
+                    }
+
                 }
             }
-          
-                &_btn {
-                    display: flex;
-                    gap: 18px;
-                }
-            
-            
         }
 
         .opencampus-side-bcg {

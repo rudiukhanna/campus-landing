@@ -1,42 +1,49 @@
 <template>
     <div class="open">
         <v-container>
-            <div class="open-content">
+            <div class="open_content">
          
-            <div class="open_wrapper">
-            <div class="opencampus-side-bcg"></div>
-            <div class="open_wrapper_content">
+            <div class="open_content_wrapper">
+                <div class="opencampus-side-bcg"></div>
+                    <div class="open_content_wrapper_contents">
                 
                 <h2>Open Campus</h2>
                 <p>A Web3 Education Protocol to tokenize educational content - first adopted by Tiny Tap</p>
-               <div class="open_wrapper_content_btn">
-                <div class="open-btn">
-                <v-btn 
-                prepend-icon="mdi-link-variant"
-                variant="flat"
-                color="#DFDFDF"
-                style="text-transform: capitalize;">
-                    Сайт
-                </v-btn>
-                <v-btn prepend-icon="mdi-file"
-                variant="flat"
-                color="#DFDFDF"
-                style="text-transform: capitalize;">
-                    Whitepaper
-                </v-btn>
-                <v-btn prepend-icon="mdi-note-text"
-                variant="flat"
-                color="#DFDFDF"
-                style="text-transform: capitalize;">
-                    Подробности
-                </v-btn>
-                <v-btn prepend-icon="mdi-frequently-asked-questions"
-                variant="flat"
-                color="#DFDFDF"
-                style="text-transform: capitalize;">
-                    FAQ
-                </v-btn>
-            </div>
+              
+                <div class="open_content_wrapper_contents_btn">
+               
+                    <v-btn 
+                    prepend-icon="mdi-link-variant"
+                    variant="flat"
+                    color="#DFDFDF"
+                    style="text-transform: capitalize;">
+                        Сайт
+                    </v-btn>
+                    
+                    <v-btn 
+                    prepend-icon="mdi-file"
+                    variant="flat"
+                    color="#DFDFDF"
+                    style="text-transform: capitalize;">
+                        Whitepaper
+                    </v-btn>
+
+                    <v-btn 
+                    prepend-icon="mdi-note-text"
+                    variant="flat"
+                    color="#DFDFDF"
+                    style="text-transform: capitalize;">
+                        Подробности
+                    </v-btn>
+
+                    <v-btn 
+                    prepend-icon="mdi-frequently-asked-questions"
+                    variant="flat"
+                    color="#DFDFDF"
+                    style="text-transform: capitalize;">
+                        FAQ
+                    </v-btn>
+                
             </div>
        
             </div>
@@ -47,7 +54,7 @@
                 <v-btn
                 variant="flat"
                 color="#FDD835"
-                style="text-transform: lowercase;border-radius: 15px;"
+                style="text-transform: lowercase;border-radius: 15px; padding:13px 20px 50px"
                 size="large"
                 >
                 Рассчитать максимальное вложение<br>
@@ -59,7 +66,7 @@
                 <v-btn
                 variant="flat"
                 color="#FDD835"
-                style="text-transform: lowercase;border-radius: 15px;"
+                style="text-transform: lowercase;border-radius: 15px; padding:13px 20px 50px"
                 size="large"
                 >
                 Фиксация USDT<br>
@@ -71,7 +78,7 @@
                 <v-btn
                 variant="flat"
                 color="#FDD835"
-                style="text-transform: lowercase;border-radius: 15px;"
+                style="text-transform: lowercase;border-radius: 15px;padding:13px 20px 50px"
                 size="large"
                 >
                 Распределение токенов<br>
@@ -83,7 +90,7 @@
                 <v-btn
                 variant="flat"
                 color="#FDD835"
-                style="text-transform: capitalize;border-radius: 15px;"
+                style="text-transform: capitalize;border-radius: 15px;padding:13px 20px 50px"
                 size="large"
                 >
                 Распределение<br>
