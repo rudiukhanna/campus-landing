@@ -250,9 +250,27 @@ body .open_content_wrapper {
     padding: 16px 12px;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_content_wrapper {
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+}
 @media screen and (min-width: 390px) and (max-width: 576px) {
   body .open_content_wrapper_contents {
+    display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  body .open_content_wrapper_contents {
+    margin-right: 550px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_content_wrapper_contents {
+    padding-right: 50px;
   }
 }
 body .open_content_wrapper_contents > h2 {
@@ -264,8 +282,14 @@ body .open_content_wrapper_contents > h2 {
 @media screen and (min-width: 390px) and (max-width: 576px) {
   body .open_content_wrapper_contents > h2 {
     margin-top: 12px;
-    padding-left: 12px;
+    padding-left: 20px;
+    margin-bottom: 33px;
     font-size: var(--font-size-l);
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_content_wrapper_contents > h2 {
+    margin-top: 25px;
   }
 }
 body .open_content_wrapper_contents > p {
@@ -278,8 +302,12 @@ body .open_content_wrapper_contents > p {
   }
 }
 body .open_content_wrapper_contents_btn {
-  display: flex;
-  gap: 18px;
+  margin-left: 18px;
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_content_wrapper_contents_btn {
+    margin-left: 0;
+  }
 }
 body .open .opencampus-side-bcg {
   width: 295px;
@@ -289,12 +317,43 @@ body .open .opencampus-side-bcg {
   background-size: cover;
   background-position: center;
 }
+@media screen and (min-width: 390px) and (max-width: 576px) {
+  body .open .opencampus-side-bcg {
+    width: 314px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open .opencampus-side-bcg {
+    width: 100%;
+    height: 400px;
+    border-radius: 25px;
+  }
+}
 body .open_btn-wrapper {
   margin-left: 35px;
   padding-bottom: 40px;
 }
 @media screen and (min-width: 390px) and (max-width: 576px) {
   body .open_btn-wrapper {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_btn-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(1, 2fr);
+    grid-row-gap: 10px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  body .open_arrow {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  body .open_arrow {
     display: none;
   }
 }

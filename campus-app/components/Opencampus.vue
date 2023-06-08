@@ -12,37 +12,49 @@
               
                 <div class="open_content_wrapper_contents_btn">
                
-                    <v-btn 
-                    prepend-icon="mdi-link-variant"
-                    variant="flat"
-                    color="#DFDFDF"
-                    style="text-transform: capitalize;">
-                        Сайт
-                    </v-btn>
-                    
-                    <v-btn 
-                    prepend-icon="mdi-file"
-                    variant="flat"
-                    color="#DFDFDF"
-                    style="text-transform: capitalize;">
-                        Whitepaper
-                    </v-btn>
+                 <v-row justify="space-between">
+                   
+                    <v-col cols="auto">
+                        <v-btn 
+                        prepend-icon="mdi-link-variant"
+                        variant="flat"
+                        color="#DFDFDF"
+                        style="text-transform: capitalize;">
+                            Сайт
+                        </v-btn>
+                    </v-col>
 
-                    <v-btn 
-                    prepend-icon="mdi-note-text"
-                    variant="flat"
-                    color="#DFDFDF"
-                    style="text-transform: capitalize;">
-                        Подробности
-                    </v-btn>
+                    <v-col cols="auto">
+                        <v-btn 
+                        prepend-icon="mdi-file"
+                        variant="flat"
+                        color="#DFDFDF"
+                        style="text-transform: capitalize;">
+                            Whitepaper
+                        </v-btn>
+                   </v-col>
 
-                    <v-btn 
-                    prepend-icon="mdi-frequently-asked-questions"
-                    variant="flat"
-                    color="#DFDFDF"
-                    style="text-transform: capitalize;">
-                        FAQ
-                    </v-btn>
+                   <v-col cols="auto">
+                        <v-btn 
+                        prepend-icon="mdi-note-text"
+                        variant="flat"
+                        color="#DFDFDF"
+                        style="text-transform: capitalize;">
+                            Подробности
+                        </v-btn>
+                    </v-col>
+
+                    <v-col cols="auto">
+                        <v-btn 
+                        prepend-icon="mdi-frequently-asked-questions"
+                        variant="flat"
+                        color="#DFDFDF"
+                        style="text-transform: capitalize;">
+                            FAQ
+                        </v-btn>
+                   </v-col>
+
+                </v-row>
                 
             </div>
        
@@ -52,16 +64,16 @@
             <div class="open_btn-wrapper">
               
                 <v-btn
-                variant="flat"
-                color="#FDD835"
-                style="text-transform: lowercase;border-radius: 15px; padding:13px 20px 50px"
-                size="large"
+                        variant="flat"
+                        color="#FDD835"
+                        style="text-transform: lowercase;border-radius: 15px; padding:13px 20px 50px"
+                        size="large"
                 >
                 Рассчитать максимальное вложение<br>
                 2023-09-08 | 03:00
                 </v-btn>
 
-                <v-icon icon="mdi-menu-right" color="#FDD835"></v-icon>
+                <v-icon icon="mdi-menu-right" color="#FDD835" class="open_arrow"></v-icon>
 
                 <v-btn
                 variant="flat"
@@ -73,7 +85,7 @@
                 2023-09-12 | 14:00
                 </v-btn>
 
-                <v-icon icon="mdi-menu-right" color="#FDD835"></v-icon>
+                <v-icon icon="mdi-menu-right" color="#FDD835" class="open_arrow"></v-icon>
 
                 <v-btn
                 variant="flat"
@@ -85,7 +97,7 @@
                 2023-09-15 | 01:00
                 </v-btn>
 
-                <v-icon icon="mdi-menu-right" color="#FDD835"></v-icon>
+                <v-icon icon="mdi-menu-right" color="#FDD835" class="open_arrow"></v-icon>
 
                 <v-btn
                 variant="flat"

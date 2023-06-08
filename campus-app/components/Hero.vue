@@ -12,7 +12,7 @@
             <div class="hero_bottom_bcg"></div>
              <div class="hero_bottom_wrapper">
                 <h1 class="title hero_bottom_wrapper_title">Open Campus</h1>
-                <v-btn color="#2196F3" class="white--text" style="color: white">
+                <v-btn color="#2196F3" style="color: white">
                 Pending
                 </v-btn>
              </div>
